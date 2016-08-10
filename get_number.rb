@@ -1,4 +1,4 @@
-# Get My Number Game 
+﻿# Get My Number Game 
 # Written by: you!  
 puts "Welcome to 'Get My Number!'" 
 
@@ -26,7 +26,7 @@ until num_guesses == 10 || guessed_it
  guess = gets.to_i
  
  num_guesses += 1 
-
+#перевірка git
  #Порівняння введеного числа з загаданим
  #і виведення відповідного повідомлення
  if guess < target 
